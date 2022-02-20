@@ -1,9 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("My super app!");
         System.out.println("App calculator");
-
+        System.out.println("Version 1.0");
         int a = 5;
         int b = 7;
         int c = add(a, b);
