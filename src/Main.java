@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("My git app. Super!");
+        System.out.println("My super app!");
 
         int a = 5;
         int b = 7;
