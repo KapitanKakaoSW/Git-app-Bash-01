@@ -4,14 +4,20 @@ public class Main {
         System.out.println("App calculator");
         System.out.println("Version 1.0");
 
-        double firstNumber = 5;
-        double secondNumber = 7;
+        double firstNumber = 8.4;
+        double secondNumber = 5.9;
 
         double resultAdd = add(firstNumber, secondNumber);
         System.out.println(resultAdd);
 
         double resultMultiply = multiply(firstNumber, secondNumber);
         System.out.println(resultMultiply);
+
+        double resultSubtract = subtract(firstNumber, secondNumber);
+        System.out.println(resultSubtract);
+
+        double resultDivide = divide(firstNumber, secondNumber);
+        System.out.println(resultDivide);
     }
 
     private static double add(double firstNumber, double secondNumber) {
