@@ -8,16 +8,16 @@ public class Main {
         double secondNumber = 5.9;
 
         double resultAdd = add(firstNumber, secondNumber);
-        System.out.println(resultAdd);
+        System.out.println("\nДобавление: " + resultAdd);
 
         double resultMultiply = multiply(firstNumber, secondNumber);
-        System.out.println(resultMultiply);
+        System.out.println("Умножение: " + resultMultiply);
 
         double resultSubtract = subtract(firstNumber, secondNumber);
-        System.out.println(resultSubtract);
+        System.out.println("Вычитание: " + resultSubtract);
 
         double resultDivide = divide(firstNumber, secondNumber);
-        System.out.println(resultDivide);
+        System.out.println("Деление: " + resultDivide);
     }
 
     private static double add(double firstNumber, double secondNumber) {
