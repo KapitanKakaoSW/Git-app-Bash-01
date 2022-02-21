@@ -3,19 +3,22 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("App calculator");
         System.out.println("Version 1.0");
-        int a = 5;
-        int b = 7;
-        int c = add(a, b);
-        System.out.println(c);
-        int d = multiply(a, b);
-        System.out.println(d);
+
+        double firstNumber = 5;
+        double secondNumber = 7;
+
+        double resultAdd = add(firstNumber, secondNumber);
+        System.out.println(resultAdd);
+
+        double resultMultiply = multiply(firstNumber, secondNumber);
+        System.out.println(resultMultiply);
     }
 
-    private static int add(int a, int b) {
-        return a + b;
+    private static double add(double firstNumber, double secondNumber) {
+        return firstNumber + secondNumber;
     }
 
-    private static int multiply(int a, int b) {
-        return a * b;
+    private static double multiply(double firstNumber, double secondNumber) {
+        return firstNumber * secondNumber;
     }
 }
