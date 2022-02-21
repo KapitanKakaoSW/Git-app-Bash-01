@@ -21,4 +21,12 @@ public class Main {
     private static double multiply(double firstNumber, double secondNumber) {
         return firstNumber * secondNumber;
     }
+
+    private static double subtract(double firstNumber, double secondNumber) {
+        return firstNumber - secondNumber;
+    }
+
+    private static double divide(double firstNumber, double secondNumber) {
+        return firstNumber / secondNumber;
+    }
 }
